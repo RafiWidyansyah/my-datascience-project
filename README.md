@@ -1,2 +1,3 @@
-# my-dataanalytics-project
-My own project in data science, especially in data analysis using python
+# my-datascience-project
+
+My own project in data science by using Python
