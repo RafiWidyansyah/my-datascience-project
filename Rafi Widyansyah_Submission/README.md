@@ -1,4 +1,4 @@
 # Run Dashboard
 
-cd dashboard
-streamlit run bikeshare_dashboard.py
+cd dashboard <br>
+streamlit run dashboard.py
