@@ -13,7 +13,8 @@ pada tahun 2011 dan 2012.
    Permintaan bikeriding relatif tinggi ketika pada suhu 25-30 derajat Celcius.
 
 ## Dashboard
-    Pembuatan dashboard dilakukan dengan menggunakan streamlit. Dashboard bisa dilihat dengan mengunjungi link berikut : 
+    Pembuatan dashboard dilakukan dengan menggunakan streamlit. Dashboard bisa dilihat dengan mengunjungi link berikut : <br>
+https://bikeshare-rafiwidyansyah.streamlit.app/
 
 ## Run Dashboard
 ```bash
