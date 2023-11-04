@@ -15,7 +15,7 @@ pada tahun 2011 dan 2012.
 ## Dashboard
 https://bikeshare-rafiwidyansyah.streamlit.app/ <br>
 <p align="center">
-<img src="Rafi Widyansyah_Submission/dashboard/dashboard.png">
+![dashboard](https://raw.githubusercontent.com/RafiWidyansyah/my-datascience-project/master/Rafi%20Widyansyah_Submission/dashboard/dashboard.png "Dashboard")
 
 ## Run Dashboard
 ```bash
