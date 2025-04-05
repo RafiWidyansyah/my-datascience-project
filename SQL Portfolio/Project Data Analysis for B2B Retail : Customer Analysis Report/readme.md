@@ -1,12 +1,11 @@
-Here are the things to be reviewed:
-
+# Objective
 - How is the current sales growth?
 - Is the number of customers on xyz.com increasing?
 - How many of these customers have made transactions?
 - Which product categories are most popular among customers?
 - How many customers remain active in making transactions?
 
-Conclusion :
+# Conclusion
 1. The performance of xyz.com took a significant hit in the second quarter, evident from the substantial drop in sales value and revenue, which plummeted by 20% and 24%, respectively. Moreover, the acquisition of new customers also declined, falling slightly compared to the previous quarter.
 
 2. The interest of new customers in shopping at xyz.com remains a concern. Only about 56% of them have made transactions. To address this issue, the Product team has been advised to conduct a thorough analysis of customer behaviour and make necessary improvements to enhance the conversion rate (register to transaction).
