@@ -70,11 +70,10 @@ select
 	avg(total_quantity) as avg_quantity_per_transaksi
 from orders
 inner join users on buyer_id = user_id
-inner join (select 
-			order_id,
-		   sum(quantity) as total_quantity
-		   from order_details
-		   group by 1) as summary_order using(order_id)
+inner join (select order_id,
+	    sum(quantity) as total_quantity
+	    from order_details
+	    group by 1) as summary_order using(order_id)
 where orders.kodepos = users.kodepos
 group by user_id, nama_user
 having count(1) >= 8 and avg(total_quantity) > 10
