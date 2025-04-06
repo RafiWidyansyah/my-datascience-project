@@ -1,3 +1,49 @@
+-- Top 5 buyer with highest total amount --
+select buyer_id, nama_user, sum(total) as total_amount
+from orders
+join users on orders.buyer_id = users.user_id
+group by 1, 2
+order by 3 desc
+limit 5;
+
+-- Top 5 Frequent Buyer --
+select buyer_id, nama_user, count(order_id) as total_transaction
+from orders
+join users on orders.buyer_id = users.user_id
+where discount = 0
+group by 1, 2
+order by 3 desc
+limit 5;
+
+-- Big Frequent Buyer in 2020 (Min. 1 Transaction and average total amount >= 1000000) --
+select buyer_id, email, average, month_count
+from (select trx.buyer_id, average, jumlah_order, month_count
+		from (select buyer_id, round(avg(total),2) average from orders
+		      where date_format(created_at, '%Y') = '2020'
+                      group by 1
+                      having average > 1000000
+                      order by 1) trx
+		join (select buyer_id, count(order_id) as jumlah_order, count(distinct date_format(created_at, '%M')) month_count
+		      from orders
+                      where date_format(created_at, '%Y') = '2020'
+                      group by 1
+                      having month_count >= 5 and jumlah_order >= month_count
+                      order by 1) months
+on trx.buyer_id = months.buyer_id) bfq
+join users on buyer_id = user_id;
+
+-- Top 5 Product in December 2019 --
+select sum(quantity) total_qty, desc_product
+from order_details a
+join products b
+on a.product_id = b.product_id
+join orders c
+on a.order_id = c.order_id
+where created_at between '2019-12-01' and '2019-12-31'
+group by 2
+order by 1 desc
+limit 5;
+
 -- Top 10 highest transaction from user = 12476 --
 select seller_id, buyer_id, total as nilai_transaksi, created_at as tanggal_transaksi
 from orders
