@@ -21,6 +21,10 @@ The “TechCorp” database consists of 6 tables :
 5. Calculate the total revenue for each products.
 6. Find the average price of products for each category and list category product with average price higher than $500.
 7. Find customers who have placed at least one order with total amount more than $1000.
+8. Category product with revenue more than average revenue for all category product.
+9. Most Issues on the Orders.
+10. How long product need to be resolved.
+11. What date has the most order.
 
 
 
