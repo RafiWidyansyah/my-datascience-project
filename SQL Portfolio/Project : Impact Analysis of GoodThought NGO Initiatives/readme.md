@@ -12,7 +12,7 @@ In this project, you'll engage with the GoodThought PostgreSQL database, which e
 
 # ERD
 
-blob:https://www.datacamp.com/531dbf28-09f6-4075-a012-d9f75799a156
+SQL Portfolio/Project : Impact Analysis of GoodThought NGO Initiatives/ERD.png
 
 # Case Study
 
