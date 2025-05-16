@@ -12,7 +12,7 @@ In this project, you'll engage with the GoodThought PostgreSQL database, which e
 
 # ERD
 
-SQL Portfolio/Project : Impact Analysis of GoodThought NGO Initiatives/ERD.png
+[SQL Portfolio/Project : Impact Analysis of GoodThought NGO Initiatives/ERD.png](https://github.com/RafiWidyansyah/my-datascience-project/blob/39c23cd7d3452b9e927844388d809c05414e7192/SQL%20Portfolio/Project%20%3A%20Impact%20Analysis%20of%20GoodThought%20NGO%20Initiatives/ERD.png)
 
 # Case Study
 
