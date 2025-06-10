@@ -5,7 +5,9 @@ However, the management has been receiving complaints about slow room service in
 
 You are working with the Head of Operations to identify possible causes and hotel branches with the worst problems.
 
-# Data
-The following schema diagram shows the tables available. You have only been provided with data where customers provided a feedback rating.
+# Task
 
-hotel_operations.png
+1. Clean the data.
+2. Calculate the average and maximum duration of each branch and services.
+3. Looking the branch and services in Europe and Latin America.
+4. Find the branch and service with average below 4,5.
