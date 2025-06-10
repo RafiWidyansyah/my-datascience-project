@@ -8,4 +8,4 @@ You are working with the Head of Operations to identify possible causes and hote
 # Data
 The following schema diagram shows the tables available. You have only been provided with data where customers provided a feedback rating.
 
-blob:https://www.datacamp.com/3c6865a6-4317-4fde-ac27-3e40160c280b
+hotel_operations.png
