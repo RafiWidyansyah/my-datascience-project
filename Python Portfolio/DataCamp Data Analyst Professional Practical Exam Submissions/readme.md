@@ -10,5 +10,5 @@
   - The Distribution of Number of Products Sold For Each Sales Methods.
   - Revenue Over Time For Each Sales Methods.
 
-For full report you can see the notebook or the document in this directory.
+For full report you can see the [notebook](https://github.com/RafiWidyansyah/my-datascience-project/blob/9bceacb6a5c283294e1f213854bf61cd2f8f855c/Python%20Portfolio/DataCamp%20Data%20Analyst%20Professional%20Practical%20Exam%20Submissions/notebook.ipynb) or the [document](https://github.com/RafiWidyansyah/my-datascience-project/blob/9bceacb6a5c283294e1f213854bf61cd2f8f855c/Python%20Portfolio/DataCamp%20Data%20Analyst%20Professional%20Practical%20Exam%20Submissions/practical%20exam%20data%20analyst%20professional.pdf) in this directory.
 
