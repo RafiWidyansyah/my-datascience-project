@@ -1,0 +1,7 @@
+google-play-scraper==1.2.7
+imbalanced-learn==0.14.1
+nltk==3.9.1
+numpy==2.0.2
+pandas==2.2.2
+Sastrawi==1.0.1
+scikit-learn==1.6.1
